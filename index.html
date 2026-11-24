@@ -1,10 +1,47 @@
 <!doctype html>
-<html lang="en">
+<html lang="hr">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>my-vue-project</title>
+
+    <!-- Naslov i opis za Google i tab u pregledniku -->
+    <title>Apartmani Marija — Smještaj i apartmani u Međugorju</title>
+    <meta
+      name="description"
+      content="Udobni i mirni apartmani u Međugorju uz besplatan parking i jednostavan dogovor oko smještaja. Pogledajte slike i kontaktirajte nas."
+    />
+
+    <!-- Prikaz kad šalješ link na WhatsApp, Viber, Instagram ili Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://apartmani-marija.vercel.app/" />
+    <meta property="og:title" content="Apartmani Marija — Smještaj u Međugorju" />
+    <meta
+      property="og:description"
+      content="Udobni apartmani, mirna lokacija i parking u Međugorju. Pogledajte galeriju i pošaljite upit."
+    />
+    <meta
+      property="og:image"
+      content="https://apartmani-marija.vercel.app/og-cover.jpg"
+    />
+
+    <!-- Strukturirani podaci za Google -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LodgingBusiness",
+        "name": "Apartmani Marija",
+        "description": "Apartmanski smještaj u Međugorju sa parkingom i mirnim okruženjem.",
+        "url": "https://apartmani-marija.vercel.app/",
+        "image": "https://apartmani-marija.vercel.app/og-cover.jpg",
+        "telephone": "+387-XX-XXX-XXX",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Međugorje",
+          "addressCountry": "BA"
+        }
+      }
+    </script>
   </head>
   <body>
     <div id="app"></div>
